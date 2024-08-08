@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+        <input type="checkbox" name="" id="toggle">
+    
+       <div class="btn">
+        <label for="toggle" id="modal-btn">
+            Join Me
+        </label>
+       </div>
+
+    <div class="modal">
+        <div class="modal-content">
+            <label for="toggle" class="close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x">
+                    <path d="M18 6 6 18" />
+                    <path d="m6 6 12 12" />
+                </svg>
+            </label>
+    
+            <div id="link" onclick="alert('Hello User')">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail">
+                <rect width="20" height="16" x="2" y="4" rx="2" />
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+            </svg>  
+            <span>
+                Connect with Email
+            </span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
